@@ -21,12 +21,12 @@ nav2 {
     left: 84%;
     transform: translate(-20%, -50%)}
 .buttons{
-	margin: 5px 600px;
+	margin: 5px 295px;
 font-family: 'Fashion Stamp', sans-serif;
                                                 
 }
 .button1{
-	margin-right: 60px;
+	margin-right: 30px;
 }
 .button1:hover {
   background-color: cadetblue;
@@ -38,7 +38,7 @@ font-family: 'Fashion Stamp', sans-serif;
 }
 
 .button3 {
-	margin-left: 50px;
+	margin-left: 30px;
 }
 .button3:hover {
   background-color: cadetblue;
