@@ -1,10 +1,10 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>java</title>
-</head>
-
-<body>
-</body>
-</html>
+// JavaScript Document
+  $(document).ready(function() {
+    $('#autoWidth').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth').removeClass('cS-hidden');
+        } 
+    });  
+  });
