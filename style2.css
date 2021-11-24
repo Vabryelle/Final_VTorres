@@ -1,16 +1,4 @@
 @charset "utf-8";
-p1{
-	font-family: 'Neon Sans', sans-serif;
-	font-size: 60px;
-	color: #af889e;
-	padding-left: 25px;
-}
-p2{
-	text-align: center;
-	font-family: 'Fashion Stamp', sans-serif;
-	font-size: 55px;
-	padding-left: 400px;
-}
 body{
 	margin: 0px;
 	padding: 0px;
@@ -105,6 +93,56 @@ a{
 	visibility: visible;
 	animation: fade 0.5s;
 }
+ .aligned {
+            display: flex;
+            align-items: center;
+	 background-color: #d1b3cb;
+        }
+           
+ nav {
+			font-family: 'Neon Sans', sans-serif;
+            padding: 10px;
+			color: #af889e;
+			font-size: 50px;
+        }
+nav2 { 
+	align-content: flex-end;
+	 padding-left: 1150px;
+	 font-family: 'Source Serif Pro', serif; }
+.wrapper {
+	position: absolute;
+    top: 19%;
+    left: 84%;
+    transform: translate(-20%, -50%)}
+.buttons{
+	margin: 5px 295px;
+font-family: 'Fashion Stamp', sans-serif;
+                                                
+}
+.button1{
+	margin-right: 30px;
+}
+.button1:hover {
+  background-color: cadetblue;
+  color: white;
+}
+.button2:hover {
+  background-color: cadetblue;
+  color: white;
+}
+
+.button3 {
+	margin-left: 30px;
+}
+.button3:hover {
+  background-color: cadetblue;
+  color: white;
+}
+button{
+	font-family: 'Fashion Stamp', sans-serif;
+	
+}
+
 @keyframes fade{
 	0%{ opacity: 0;
 	}
