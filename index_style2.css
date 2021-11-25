@@ -6,7 +6,7 @@
 .container{
 	height: 100vh;
 	width: 100vh;
-	background-image: url("images/background.jpg");
+	background-image: url("images/background_oval.png");
 	background-position: center;
 	background-size: cover;
 	padding-left: 5%;
