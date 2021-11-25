@@ -44,7 +44,7 @@ nav ul li{
 nav ul li a{
 	text-decoration: none;
 	color:#333;
-	padding-left: 145px;
+	padding-left: 85px;
 }
 .content{
 	margin-top: 10%;
@@ -52,7 +52,7 @@ nav ul li a{
 	
 }
 .content h1{
-	font-size: 45px;
+	font-size: 55px;
 	font-weight: 100;
 	margin-top: 24px;
 	margin-bottom: 15px;
@@ -75,14 +75,6 @@ nav ul li a{
 	text-decoration: none;
 	color: #fff;
 	box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
-}
-.arrow-icons{
-	margin-top: 40px;
-	display: flex;
-}
-.arrow-icons img{
-	width: 40px;
-	margin-right: 25px;
 }
 .feature-img{
 	height: 90%;
