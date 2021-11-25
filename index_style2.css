@@ -66,7 +66,7 @@ nav ul li a{
 	font-family: 'Neuton', serif;
 	font-family: 'Source Serif Pro', serif;
 }
-.content btn{
+.content .btn{
 	display: inline-block;
 	background: linear-gradient(45deg, #87adfe, #ff77cd);
 	border-radius: 6px;
