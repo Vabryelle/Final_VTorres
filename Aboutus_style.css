@@ -66,3 +66,28 @@ nav ul li a{
 	padding: 0px 200px 0px 200px;
 	
 }
+.accordion {
+  background-color: #d1b3cb;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  border:ridge;
+  outline: none;
+  transition: 0.4s;
+  font-size: 20px;
+}
+
+
+.active, .accordion:hover {
+  background-color: #6c6b8a;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 50px;
+  background-color: #9aaed1;
+  display:none;
+  overflow: hidden;
+}
