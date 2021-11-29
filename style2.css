@@ -12,8 +12,8 @@ nav1{
 	height: 100vh;
 	width: 100%;
 	background-image: url("images/background_oval.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+	background-repeat: repeat-y;
+  background-attachment:scroll;
 	background-position: center;
 	background-size: cover;
 	padding-left: 5%;
