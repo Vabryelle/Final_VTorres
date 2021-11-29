@@ -61,6 +61,13 @@ body1{
 a{
 	text-decoration: none;
 }
+.container2{
+	display: flex;
+	overflow-x: auto;
+}
+.container2::-webkit-scrollbar{
+	width: 0;
+}
 .slider{
 	margin: 25px;
 	width: 350px;
