@@ -12,7 +12,7 @@ nav1{
 	height: 100vh;
 	width: 100%;
 	background-image: url("images/background_oval.png");
-	background-repeat: no-repeat;
+	background-repeat:repeat-y;
   background-attachment: scroll;
 	background-position: center;
 	background-size: cover;
@@ -64,7 +64,7 @@ a{
 	text-decoration: none;
 }
 .container2{
-	display: flex;
+	display:flex;
 	overflow-x: auto;
 	padding-left: 0;
 }
@@ -150,6 +150,7 @@ span{
 	visibility: visible;
 	animation: animation 1s;
 }
+
 @keyframes animation{
 	0%{
 		opacity: 0;
