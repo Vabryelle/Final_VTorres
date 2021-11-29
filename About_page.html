@@ -3,11 +3,8 @@
 <head>
 <meta charset="utf-8">
 <title>index.html</title>
-
 <link href="Aboutus_style.css" rel="stylesheet" type="text/css">
-	<link href="aboutus_java.js" rel="stylesheet" type="text/javascript">
 </head>
-	</body>
 <body>
 	<div class="container1">
 <div class="navbar">
@@ -20,8 +17,7 @@
 			<li><a href="Shirt_page.html">T-Shirts</a></li>
 			<li><a href="About_page.html">About</a></li>
 			<li><a href="ContactUs_page.html">Contact Us</a></li>
-		  </ul>
-		
+		  </ul>	
 		</nav>
 		<img src="images/cart.png" class="cart">
 		</div>
@@ -30,28 +26,24 @@
 		<h1><img src="images/girl1.jpg" class="girl"></h1></div>
 	<div class="content">
 		<h2> About Us</h2>
-		</div>
-		
-		<button class="accordion">Our Statement</button>
-<div class="panel">
-  <p>At AniMake we believe that everyone should be comfortable to wear what they love. In a society that is hard to fit in, we make minimalistic clothing that conveys your favorite interests without drawing attention from others. Our goal at AniMake is to spread happiness </p>
-</div>
-
-<button class="accordion">List of Products</button>
-<div class="panel">
-  <p>At AniMake we only use the best of products. All of our products are 100% cotton. Our Highest priority for our prodcuts is to provide our customers with comfort. 100% satisfaction Guaranteed!</p>
-</div>
-
-<button class="accordion">Employees</button>
-<div class="panel">
-  <p>Web Designer- Vabryelle Torres</p>
-	<p2> Vabryelle is 22 years old and enjoys anime as much as you do! If you expierence any bugs please inform us through our contact page!</p2>
-</div>
-		</section>	
-	</div>
 	
+<button class="accordion">Section 1</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Section 2</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Section 3</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+</div></div>
+		</section>
 <script>
-	<script>
 var acc = document.getElementsByClassName("accordion");
 var i;
 
@@ -59,13 +51,12 @@ for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
     } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
+      panel.style.display = "block";
     }
   });
 }
 </script>
-
 </html>
