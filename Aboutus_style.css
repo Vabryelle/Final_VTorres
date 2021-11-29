@@ -80,11 +80,9 @@ nav ul li a{
 }
 
 
-.active, .accordion:hover {
+.active .accordion:hover {
   background-color: #6c6b8a;
 }
-
-/* Style the accordion panel. Note: hidden by default */
 .panel {
   padding: 0 50px;
   background-color: #9aaed1;
