@@ -53,7 +53,7 @@ nav ul li a{
 	color:#333;
 	padding-left: 35px;
 }
-.accordion {
+.about .accordion {
   background-color: #eee;
   color: #444;
   cursor: pointer;
@@ -66,11 +66,11 @@ nav ul li a{
   transition: 0.4s;
 }
 
-.active .accordion:hover {
+.about .active .accordion:hover{
   background-color: #ccc; 
 }
 
-.panel {
+.about .panel {
   padding: 0 18px;
   display: none;
   background-color: white;
